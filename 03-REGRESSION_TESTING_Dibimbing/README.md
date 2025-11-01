@@ -21,4 +21,4 @@ Seluruh skenario Regression Testing (5 kategori: Automation, Promo, Login, User,
 
 | Nama File | Isi Sheet Utama | Tautan Unduh |
 | :--- | :--- | :--- |
-| **Regression Testing.xlsx** | 5 Sheet Terpisah (Automation, Promo, Login, User, Manual) | [Unduh File Excel Asli](Regression%20Testing%20.xlsx) |
+| **Regression Testing.xlsx** | 5 Sheet Terpisah (Automation, Promo, Login, User, Manual) | [Unduh File Excel Asli](Regression%20Testing.xlsx) |
