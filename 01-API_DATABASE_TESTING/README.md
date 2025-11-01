@@ -22,4 +22,5 @@ Seluruh skenario pengujian (Login, GET, POST, DELETE) disatukan dalam satu file 
 
 | Nama File | Isi Sheet | Tautan Unduh |
 | :--- | :--- | :--- |
-| **API\_DATABASE\_TESTING.xlsx** | Login, Create, Read, Update, Delete Activities | [Unduh File Lengkap](API_DATABASE_TESTING.xlsx) |
+| **API\_DATABASE\_TESTING.xlsx**| Login, Create, Read, Update, Delete Activities | [Unduh File Lengkap](API_DATABASE_TESTING.xlsx) 
+  **API\_DATABASE\_TESTING.csv** | Login, Create, Read, Update, Delete Activities | [Lihat FIle Lengkap](API_DATABASE_TESTING.csv) 
