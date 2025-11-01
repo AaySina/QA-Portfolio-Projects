@@ -22,4 +22,4 @@ Seluruh skenario Compatibility Testing (Test Case dan Matriks Hasil) disatukan d
 
 | Nama File | Isi Sheet Utama | Tautan Unduh |
 | :--- | :--- | :--- |
-| **Compability Testing - dibimbing.com.xlsx** | Main Features, Result Matrix, Bug Reports | [Unduh File Excel Asli](Compability%20Testing%20-%20dibimbing.com.xlsx) |
+| **Compability Testing.xlsx** | Main Features, Result Matrix, Bug Reports | [Unduh File Excel Asli](Compability%20Testing.xlsx) |
