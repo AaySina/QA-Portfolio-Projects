@@ -1,4 +1,4 @@
-# 🔄 Proyek 03: Regression Testing - Dibimbing.com
+# 🔄 Proyek 03: Regression Testing - Dibimbing.co.id
 
 ## Tipe Pengujian
 Regression Testing (Manual & Skenario Otomasi) dan Add-Feature Testing.
