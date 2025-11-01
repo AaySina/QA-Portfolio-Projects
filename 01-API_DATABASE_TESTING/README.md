@@ -11,21 +11,18 @@ Memastikan fungsionalitas **CRUD** (Create, Read, Update, Delete) pada API aktiv
 |---|---|
 | API Client | Postman |
 | Database | PostgreSQL (Verifikasi via SQL Query) |
-| Dokumentasi | Spreadsheet (Excel) |
+| Dokumentasi | Spreadsheet (CSV/Excel) |
 
 ## 📊 Ringkasan Test Case
-Berdasarkan data yang diuji:
 * **Fokus Utama:** Operasi CRUD pada entitas `sport-activities`, dan fungsionalitas `Login` (Autentikasi).
-* **Temuan Kunci (Key Findings):**
-    1.  Ditemukan ketidakkonsistenan status code pada skenario Negatif (Misal: TC-DELETE-003, ekspektasi `401 Unauthorized` namun aktual `500 Internal Server Error`).
-    2.  Pengujian Database berhasil memverifikasi bahwa operasi API telah memengaruhi data di PostgreSQL sesuai harapan.
+* **Temuan Kunci (Key Findings):** Ditemukan ketidakkonsistenan status code pada skenario Negatif.
 
 ## 📄 File Test Case & Hasil
-| Nama File | Fokus Uji | Hasil Kritis (Contoh) |
+| Nama File | Fokus Uji | Keterangan |
 | :--- | :--- | :--- |
-| **[Login.csv](Login.csv)** | Autentikasi | Menguji skenario positif dan negatif (kosong/invalid credential). |
-| **[POSTCREATE_SPORT_ACTIVITY.csv](POSTCREATE_SPORT_ACTIVITY.csv)** | POST (Create) | Pengujian pembuatan data, termasuk verifikasi database (`INSERT`). |
-| **[POSTUPDATE_SPORT_ACTIVITY.csv](POSTUPDATE_SPORT_ACTIVITY.csv)** | POST (Update) | Pengujian pembaruan data dan verifikasi data terbaru di database (`UPDATE`). |
-| **[GETSPORT ACTIVITIES.csv](GETSPORT ACTIVITIES.csv)** | GET (All) | Menguji *pagination* dan akses data keseluruhan. |
-| **[GETSPORT_ACTIVITIES_BY_ID.csv](GETSPORT_ACTIVITIES_BY_ID.csv)** | GET (By ID) | Menguji akses dengan ID valid dan invalid. |
-| **[DELETESPORT_ACTIVITY.csv](DELETESPORT_ACTIVITY.csv)** | DELETE | Menguji penghapusan data dan verifikasi data hilang dari database (`DELETE`). |
+| **[Login - API Testing]**(API_DATABASE_TESTING.xlsx%20-%20Login.csv) | Autentikasi | Menguji skenario positif dan negatif. |
+| **[POST Create Activity]**(API_DATABASE_TESTING.xlsx%20-%20POSTCREATE_SPORT_ACTIVITY.csv) | POST (Create) | Pengujian pembuatan data dan verifikasi database. |
+| **[POST Update Activity]**(API_DATABASE_TESTING.xlsx%20-%20POSTUPDATE_SPORT_ACTIVITY.csv) | POST (Update) | Pengujian pembaruan data dan verifikasi data terbaru di database. |
+| **[GET All Activities]**(API_DATABASE_TESTING.xlsx%20-%20GETSPORT%20ACTIVITIES.csv) | GET (All) | Menguji *pagination* dan akses data keseluruhan. |
+| **[GET By ID]**(API_DATABASE_TESTING.xlsx%20-%20GETSPORT_ACTIVITIES_BY_ID.csv) | GET (By ID) | Menguji akses dengan ID valid dan invalid. |
+| **[DELETE Activity]**(API_DATABASE_TESTING.xlsx%20-%20DELETESPORT_ACTIVITY.csv) | DELETE | Menguji penghapusan data dan verifikasi data hilang dari database. |
