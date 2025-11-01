@@ -4,20 +4,22 @@
 Exploratory Testing dan Accessibility Testing (WCAG Compliance).
 
 ## Tujuan Proyek
-Mengidentifikasi potensi isu kritis pada fungsionalitas dan UI/UX (Exploratory Testing) serta mengevaluasi tingkat kepatuhan website Tokopedia terhadap standar aksesibilitas (Accessibility Testing), terutama untuk pengguna *screen reader* dan keyboard.
+Mengidentifikasi potensi isu kritis pada fungsionalitas dan UI/UX (Exploratory Testing) serta mengevaluasi tingkat kepatuhan website Tokopedia terhadap standar aksesibilitas (WCAG).
 
 ## 🛠️ Tools & Teknologi
 | Kategori | Tools yang Digunakan |
 |---|---|
 | Exploratory | User Flows, Heuristic Evaluation |
 | Accessibility | Chrome DevTools, Keyboard Navigation, Screen Reader Simulation |
-| Dokumentasi | Microsoft Word / DOCX (berisi bukti dan laporan) |
+| Dokumentasi | Microsoft Word / DOCX |
 
 ## 📊 Ringkasan Temuan Kunci
-* **Exploratory Findings:** Ditemukan isu *critical failure* pada rendering halaman ketika JavaScript di-disable (fallback content yang tidak memadai) dan isu *major* pada visibilitas elemen navigasi saat scrolling.
-* **Accessibility Findings:** Ditemukan *critical* isu pada **icon-only buttons** (tombol ikon tanpa teks) yang tidak memiliki `aria-label` yang deskriptif, melanggar prinsip **WCAG Success Criterion 2.4.4 (Link Purpose) / 4.1.2 (Name, Role, Value)**, sehingga sulit digunakan oleh *screen reader*.
+* **Exploratory Findings:** Ditemukan isu *critical failure* pada rendering halaman ketika JavaScript di-disable.
+* **Accessibility Findings:** Ditemukan *critical* isu pada **icon-only buttons** yang tidak memiliki `aria-label` yang deskriptif (melanggar WCAG).
 
-## 📄 File Laporan
-| Nama File | Fokus Laporan | Keterangan |
+## 📄 File Laporan Lengkap
+Dokumen ini berisi detail Test Case Eksplorasi, Temuan Aksesibilitas, *Steps to Reproduce*, *Severity*, dan *Evidence* (termasuk *screenshots*). File ini memerlukan **download** untuk dibuka.
+
+| Nama File | Fokus Laporan | Tautan Unduh |
 | :--- | :--- | :--- |
-| **[Exploratory & Accessibility Report](Exploratory-Accresbility%20Testing%20-%20Tokopedia.com.docx)** | Dokumentasi Komprehensif | Berisi Test Case, *Steps to Reproduce*, *Actual vs Expected Result*, *Severity*, dan *Evidence* (termasuk *screenshots*). |
+| **Exploratory-Accresbility Testing - Tokopedia.com.docx** | Laporan Eksplorasi & Aksesibilitas | [Unduh File DOCX Asli](Exploratory-Accresbility%20Testing%20-%20Tokopedia.com.docx) |
