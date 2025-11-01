@@ -1,0 +1,39 @@
+﻿No;Test Case - ID;Skenario Uji (Positif/Negatif);Endpoint;Method;Request Body;Ekpetasi Hasil;Aktual Status Code;Aktual Response Message (Key);Status;QUERY SQL;Evidence
+1;TC-GETALL-001;Get semua activities dengan token valid (Positif);/api/v1/sport-activities;GET;;200 OK;200 OK (Diterima);Status 200, Response berisi array of activities;PASSED;"SELECT * FROM sport_activities;";
+2;TC-GETALL-002;Get activities dengan page number valid (Positif);/api/v1/sport-activities ;GET;is_paginate=true&per_page=10&page=1;200 OK;200 OK (Diterima);Response berisi data aktivitas;PASSED;"SELECT
+    id,
+    user_id,
+    sport_category_id,
+    city_id,
+    title,
+    price,
+    slot,
+    activity_date,
+    start_time,
+    end_time,
+    created_at,
+    updated_at
+FROM
+    sport_activities
+WHERE
+    -- Memfilter ID antara 500 hingga 654
+    id BETWEEN 500 AND 654
+ORDER BY
+    created_at DESC  -- Mengurutkan data (penting untuk konsistensi pagination)
+LIMIT 10             -- Mengambil 10 data per halaman (per_page=10)
+OFFSET 0;            -- Memulai dari data pertama (page=1: (1-1)*10 = 0)";
+3;TC-GETALL-003;Get activities dengan {{baseURL}} salah (Negatif);/api/v1/sport-activities;GET;"{
+    ""sport_category_id"": ""411"",
+    ""city_id"": 461,
+    ""title"": ""sport_activity_farhans"",
+    ""description"": ""*FUN RUN BANDUNG GBLA*"",
+    ""slot"": 20,
+    ""price"": 150000,
+    ""address"": ""Lapangan GBLA, Bandung Timur"",
+    ""activity_date"": ""2025-10-26"",
+    ""start_time"": ""06:30"",
+    ""end_time"": ""09:00"",
+    ""map_url"":""https://share.google/vM3oubEu896KCUS7J""
+}";500 atau 404;500 Internal Server Error;"{
+ ""message"": ""Internal Server Error.""
+}";PASSED;NONE;
