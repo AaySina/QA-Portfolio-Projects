@@ -1,4 +1,4 @@
-# 🔄 Proyek 03: Regression Testing - Dibimbing.com
+# 🔄 Proyek 03: Regression Testing - Dibimbing.co.id
 
 ## Tipe Pengujian
 Regression Testing (Manual & Skenario Otomasi) dan Add-Feature Testing.
@@ -22,3 +22,4 @@ Seluruh skenario Regression Testing (5 kategori: Automation, Promo, Login, User,
 | Nama File | Isi Sheet Utama | Tautan Unduh |
 | :--- | :--- | :--- |
 | **Regression Testing.xlsx** | 5 Sheet Terpisah (Automation, Promo, Login, User, Manual) | [Unduh File Excel Asli](Regression%20Testing.xlsx) |
+
