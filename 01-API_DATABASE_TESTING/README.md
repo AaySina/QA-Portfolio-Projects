@@ -16,10 +16,9 @@ Memastikan fungsionalitas **CRUD** (Create, Read, Update, Delete) pada API aktiv
 ## 📊 Ringkasan Test Case
 * **Fokus Utama:** Operasi CRUD pada entitas `sport-activities`, dan fungsionalitas `Login` (Autentikasi).
 * **Temuan Kunci (Key Findings):** Ditemukan ketidakkonsistenan status code pada skenario Negatif.
-
+* **Pengingat (Reminder):** Untuk Pdf dan CSV hanya Salah Satu Tab Untuk XLSX Lengkap.
 ## 📄 File Test Case Lengkap
 Seluruh skenario pengujian (Login, GET, POST, DELETE) disatukan dalam satu file Excel dengan *sheet* yang berbeda. File ini memerlukan *download* untuk dibuka.
-* **Pengingat (Reminder):** Untuk Pdf dan CSV hanya Salah Satu Tab Untuk XLSX Lengkap.
 | Nama File | Isi Sheet | Tautan Unduh |
 | :--- | :--- | :--- |
 | **API\_DATABASE\_TESTING.xlsx**| Login, Create, Read, Update, Delete Activities | [Unduh File Lengkap](API_DATABASE_TESTING.xlsx)
