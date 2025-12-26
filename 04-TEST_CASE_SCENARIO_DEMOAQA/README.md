@@ -1,4 +1,4 @@
-# ✍️ Proyek 04: Test Case & Scenario Design - DemoQA
+# Proyek 04: Test Case & Scenario Design - DemoQA
 
 ## Tipe Pengujian
 Test Case Design, Scenario Mapping, dan Functional Testing.
@@ -13,11 +13,11 @@ Mendemonstrasikan kemampuan dalam merancang Test Case dan Skenario Uji yang komp
 | Metodologi | Boundary Value Analysis, Equivalence Partitioning |
 | Dokumentasi | Spreadsheet (Excel/XLSX) |
 
-## 📊 Ringkasan Desain Test Case
+## Ringkasan Desain Test Case
 * **Fokus Utama:** Pengujian komponen dasar dan kompleks. Penekanan pada validasi input (Forms) dan interaksi browser (Alerts, Frames, Windows).
 * **Cakupan:** Meliputi 6 fitur utama pada DemoQA: Elements, Forms, Alert/Frame/Windows, Widgets, dan Book Store Application.
 
-## 📄 File Test Case Lengkap
+## ile Test Case Lengkap
 Seluruh desain Test Case dan Skenario dari 6 fitur utama disatukan dalam satu file Excel (`.xlsx`) dengan *sheet* yang berbeda. File ini memerlukan **download** untuk dibuka.
 
 | Nama File | Isi Sheet Utama | Tautan Unduh |
